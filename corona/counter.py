@@ -6,7 +6,7 @@ from scipy import optimize
 from corona import dates
 from corona.consts import DURATION, N
 from corona.reports import print_report
-from differential_equations import SIR, Coefficients, dI, dR, dS, get_y
+from core.differential_equations import SIR, Coefficients, dI, dR, dS, get_y
 
 
 def get_curr_s(curr_i: List[int], curr_r: List[int]) -> List[int]:

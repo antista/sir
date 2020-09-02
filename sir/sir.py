@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import ticker
 from matplotlib.widgets import Slider
 
-from differential_equations import SIR, Coefficients, dI, dR, dS, get_y
+from core.differential_equations import SIR, Coefficients, dI, dR, dS, get_y
 
 N = int(os.getenv('POPULATION', 0))
 if not N:

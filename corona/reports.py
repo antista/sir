@@ -1,7 +1,7 @@
 import datetime
 
 from corona.dates import START_DATE
-from differential_equations import Coefficients
+from core.differential_equations import Coefficients
 
 
 def print_prediction_header():
