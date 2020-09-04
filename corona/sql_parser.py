@@ -2,7 +2,7 @@ from collections import namedtuple
 
 import datadotworld as dw
 
-DayStat = namedtuple('DayStat', 'date, new_deaths, total_cases')
+DayStat = namedtuple('DayStat', 'date, new_cases, total_cases')
 
 query = dw.query(
     'markmarkoh/coronavirus-data',
