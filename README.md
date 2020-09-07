@@ -23,7 +23,8 @@ Program receives open data from https://data.world/markmarkoh/coronavirus-data
 and plot the number of infected people, the average number of infected people 
 and the graph of the predicted infected people.
 
-!! **IMPORTANT** Before run script you should login to dataworld and get your personal access token here https://data.world/settings/advanced.
+### IMPORTANT
+Before run script you should login to dataworld and get your personal access token here https://data.world/settings/advanced.
 Then run `dw configure` and paste your access token there or run `export DW_AUTH_TOKEN=<YOUR_TOKEN>`.
 
 #### Usage
