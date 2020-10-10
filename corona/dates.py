@@ -1,14 +1,13 @@
 import os
 from typing import List
 
-from corona.consts import INCUBATION
 from corona.sql_parser import all_cases
 
 # There are approximate counts of the days from the start of the COVID-19
 # epidemic when some steps were taken to prevent the spread of the disease
 
 # First steps were taken
-first_steps = INCUBATION + 80
+first_steps = 94
 # Borders were closed
 borders_closed = first_steps + 15
 # BLM meetings in America
