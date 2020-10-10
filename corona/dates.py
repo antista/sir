@@ -33,6 +33,7 @@ STAGES_DATES = [
     America_meetings,
     calm_quarantine,
     almost_all_recovered,
+    250,
     DAYS_COUNT
 ]
 # Index of the day when borders was closed in the dates_segments list
